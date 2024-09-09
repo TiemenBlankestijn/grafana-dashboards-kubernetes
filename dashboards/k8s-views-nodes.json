@@ -1,4 +1,4 @@
-<{
+{
   "annotations": {
     "list": [
       {
@@ -100,7 +100,11 @@
         "sizing": "auto",
         "text": {}
       },
+<<<<<<< HEAD
       "pluginVersion": "11.1.0",
+=======
+      "pluginVersion": "11.2.0",
+>>>>>>> bfda0bdc44f877852f0fd3716c54283acaeb4f1d
       "targets": [
         {
           "datasource": {
@@ -173,7 +177,8 @@
         "sizing": "auto",
         "text": {}
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
+
       "targets": [
         {
           "datasource": {
@@ -237,7 +242,7 @@
         "textMode": "value",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -376,7 +381,7 @@
         "showHeader": true,
         "sortBy": []
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -525,7 +530,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -590,7 +595,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -654,7 +659,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -719,7 +724,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -792,7 +797,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -844,6 +849,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -946,6 +952,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1118,6 +1125,7 @@
             "axisLabel": "CPU Cores",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1214,6 +1222,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1311,6 +1320,7 @@
             "axisLabel": "CPU CORES",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1436,6 +1446,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1563,6 +1574,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1674,6 +1686,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1787,6 +1800,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1920,6 +1934,7 @@
             "axisLabel": "BANDWIDTH",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1959,7 +1974,7 @@
               }
             ]
           },
-          "unit": "bytes"
+          "unit": "binBps"
         },
         "overrides": []
       },
@@ -2011,7 +2026,7 @@
           "refId": "B"
         }
       ],
-      "title": "Network usage (bytes)",
+      "title": "Network usage (bytes/s)",
       "type": "timeseries"
     },
     {
@@ -2031,6 +2046,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2140,6 +2156,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2251,6 +2268,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2360,6 +2378,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2458,6 +2477,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2603,6 +2623,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2766,7 +2787,7 @@
         "showHeader": true,
         "sortBy": []
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -2864,6 +2885,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2980,6 +3002,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -3080,6 +3103,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -3180,6 +3204,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -3279,6 +3304,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -3379,6 +3405,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -3478,6 +3505,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -3578,6 +3606,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -3677,6 +3706,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -3923,6 +3953,6 @@
   "timezone": "",
   "title": "Kubernetes / Views / Nodes",
   "uid": "k8s_views_nodes",
-  "version": 1,
+  "version": 30,
   "weekStart": ""
 }

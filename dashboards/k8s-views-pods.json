@@ -100,7 +100,7 @@
         "textMode": "name",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -130,7 +130,7 @@
           "links": [
             {
               "title": "",
-              "url": "/d/k8s_views_nodes/kubernetes-views-nodes?var-datasource=${datasource}&var-node=${__data.fields.node}"
+              "url": "/d/k8s_views_nodes/kubernetes-views-nodes?var-datasource=${datasource}&var-node=${__field.labels.node}"
             }
           ],
           "mappings": [],
@@ -171,7 +171,7 @@
         "textMode": "name",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -236,7 +236,7 @@
         "textMode": "name",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -301,7 +301,7 @@
         "textMode": "name",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -400,7 +400,7 @@
         "textMode": "name",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -467,7 +467,7 @@
         "textMode": "name",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -538,7 +538,7 @@
         "textMode": "value",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -642,7 +642,7 @@
         "showThresholdMarkers": true,
         "sizing": "auto"
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -715,7 +715,7 @@
         "showThresholdMarkers": true,
         "sizing": "auto"
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -791,8 +791,7 @@
         "showThresholdLabels": false,
         "showThresholdMarkers": true,
         "sizing": "auto"
-      },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -865,7 +864,7 @@
         "showThresholdMarkers": true,
         "sizing": "auto"
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -984,7 +983,7 @@
         "showHeader": true,
         "sortBy": []
       },
-      "pluginVersion": "11.1.0",
+      "pluginVersion": "11.2.0",
       "targets": [
         {
           "datasource": {
@@ -1183,6 +1182,7 @@
             "axisLabel": "Percent",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1308,6 +1308,7 @@
             "axisLabel": "Percent",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1435,6 +1436,7 @@
             "axisLabel": "CPU Cores",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1558,6 +1560,7 @@
             "axisLabel": "Bytes",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1665,6 +1668,7 @@
             "axisLabel": "SECONDS",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1788,6 +1792,7 @@
             "axisLabel": "Percent",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1904,6 +1909,7 @@
             "axisLabel": "Percent",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2045,6 +2051,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2084,7 +2091,7 @@
               }
             ]
           },
-          "unit": "bytes"
+          "unit": "binBps"
         },
         "overrides": []
       },
@@ -2152,6 +2159,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2259,6 +2267,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2366,6 +2375,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -2656,6 +2666,6 @@
   "timezone": "",
   "title": "Kubernetes / Views / Pods",
   "uid": "k8s_views_pods",
-  "version": 1,
+  "version": 30,
   "weekStart": ""
 }
