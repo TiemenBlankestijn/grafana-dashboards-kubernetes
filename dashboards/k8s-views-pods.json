@@ -791,6 +791,7 @@
         "showThresholdLabels": false,
         "showThresholdMarkers": true,
         "sizing": "auto"
+      },
       "pluginVersion": "11.2.0",
       "targets": [
         {
