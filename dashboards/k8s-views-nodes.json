@@ -100,11 +100,7 @@
         "sizing": "auto",
         "text": {}
       },
-<<<<<<< HEAD
-      "pluginVersion": "11.1.0",
-=======
       "pluginVersion": "11.2.0",
->>>>>>> bfda0bdc44f877852f0fd3716c54283acaeb4f1d
       "targets": [
         {
           "datasource": {
