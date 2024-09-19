@@ -25,6 +25,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
+  "id": 23,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -100,7 +101,7 @@
         "sizing": "auto",
         "valueMode": "color"
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.1.0",
       "targets": [
         {
           "datasource": {
@@ -249,7 +250,7 @@
         "text": {},
         "valueMode": "color"
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.1.0",
       "targets": [
         {
           "datasource": {
@@ -388,7 +389,7 @@
         "textMode": "value",
         "wideLayout": true
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.1.0",
       "targets": [
         {
           "datasource": {
@@ -424,7 +425,6 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
-            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -698,7 +698,7 @@
         "textMode": "value",
         "wideLayout": true
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.1.0",
       "targets": [
         {
           "datasource": {
@@ -761,7 +761,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.1.0",
       "targets": [
         {
           "datasource": {
@@ -917,7 +917,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.1.0",
       "targets": [
         {
           "datasource": {
@@ -1069,7 +1069,7 @@
         "textMode": "value",
         "wideLayout": true
       },
-      "pluginVersion": "11.2.0",
+      "pluginVersion": "11.1.0",
       "targets": [
         {
           "datasource": {
@@ -1120,7 +1120,6 @@
             "axisLabel": "CPU %",
             "axisPlacement": "auto",
             "barAlignment": 0,
-            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 10,
             "gradientMode": "scheme",
@@ -1254,7 +1253,6 @@
             "axisLabel": "MEMORY",
             "axisPlacement": "auto",
             "barAlignment": 0,
-            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 10,
             "gradientMode": "scheme",
@@ -1424,8 +1422,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1531,8 +1528,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1637,8 +1633,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1756,8 +1751,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1881,8 +1875,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1992,8 +1985,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2110,8 +2102,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2227,8 +2218,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2333,8 +2323,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2439,8 +2428,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2562,8 +2550,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2702,8 +2689,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2887,8 +2873,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2999,8 +2984,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -3139,8 +3123,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -3280,8 +3263,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -3349,7 +3331,8 @@
   "schemaVersion": 39,
   "tags": [
     "Kubernetes",
-    "Prometheus"
+    "Prometheus",
+    "zeb"
   ],
   "templating": {
     "list": [
@@ -3485,7 +3468,7 @@
   "timepicker": {},
   "timezone": "",
   "title": "Kubernetes / Views / Global",
-  "uid": "k8s_views_global",
-  "version": 40,
+  "uid": "k8s_views_global_edit",
+  "version": 2,
   "weekStart": ""
 }
