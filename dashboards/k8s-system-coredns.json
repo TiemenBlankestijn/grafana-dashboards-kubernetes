@@ -25,6 +25,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
+  "id": 22,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -537,8 +538,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -633,8 +633,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -729,8 +728,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -827,8 +825,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -925,8 +922,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1032,8 +1028,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1326,7 +1321,8 @@
   "schemaVersion": 39,
   "tags": [
     "Kubernetes",
-    "Prometheus"
+    "Prometheus",
+    "zeb"
   ],
   "templating": {
     "list": [
@@ -1524,7 +1520,7 @@
   "timepicker": {},
   "timezone": "",
   "title": "Kubernetes / System / CoreDNS",
-  "uid": "k8s_system_coredns",
-  "version": 1,
+  "uid": "k8s_system_coredns_edit",
+  "version": 2,
   "weekStart": ""
 }
